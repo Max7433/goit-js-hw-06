@@ -1,5 +1,5 @@
-const input = document.querySelector("input#font-size-control");
-const alfaRomeo = document.querySelector("span#text");
+const input = document.querySelector("#font-size-control");
+const alfaRomeo = document.querySelector("#text");
 
 input.addEventListener("change", (e) => {
   alfaRomeo.style.fontSize = `${e.target.value}px`;
